@@ -57,7 +57,7 @@ def read_and_clean_csv(input_file_path, output_file_path):
 
 
 if __name__ == "__main__":
-    input_csv_path = "/Users/akanchhakumari11gmail.com/Downloads/salary_survey-1.csv"
-    output_csv_path = "/Users/akanchhakumari11gmail.com/Downloads/cleaned_salary_survey.csv"
+    input_csv_path = ""
+    output_csv_path = ""
     read_and_clean_csv(input_csv_path, output_csv_path)
     print(f"Cleaned data has been written to {output_csv_path}")
